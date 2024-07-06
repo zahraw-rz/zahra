@@ -61,9 +61,9 @@
 
 <img src="https://github.com/zahraw-rz/zahra/blob/main/%D9%BE%D8%A7%D9%86%D8%B2%D8%AF%D9%87%D9%85.PNG?raw=true" />
 
+این کد یک تابع به اسم read_student تعریف میکند که با روش get اطلاعات یک دانشجو را دریافت میکند و پارامتر student_id  شناسه دانشجو را میگیرد. با استفاده از get_db یک اتصال به پایگاه داده برقرار میشود.تابع crud.get_student اطلاعات دانشجو را از پایگاه داده با استفاده از student_id دریافت میکند. بررسی میکند اگر دانشجو وجود نداشته باشد کد 404 را برمیگرداند و اگر دانشجو وجود داشته باشد، اطلاعات دانشجو را برمیگرداند.
 
-
-
+<img src="https://github.com/zahraw-rz/zahra/blob/main/%D8%B4%D8%A7%D9%86%D8%B2%D8%AF%D9%87%D9%85.PNG?raw=true" />
 
 
 
