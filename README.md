@@ -49,6 +49,21 @@
 <img src="https://github.com/zahraw-rz/zahra/blob/main/%D8%AF%D9%88%D8%A7%D8%B2%D8%AF%D9%87%D9%85.PNG?raw=true" />
 
 
+# فایل main:
+این کد یک API برای مدیریت دانشجویان و اساتید و دروس با استفاده از fastapi و sqlalchemy انجام میدهد. اول کتابخانه های مورد نیاز را ایمپورت میکنیم.sys برای رفع مشکل parent پکیج است. و بعد ماژول های داخلی پروژه را ایمپورت میکنیم. بعد جداول دیتابیس را ایجاد میکنیم.
+<img src="https://github.com/zahraw-rz/zahra/blob/main/%D8%B3%DB%8C%D8%B2%D8%AF%D9%87%D9%85.PNG?raw=true" />
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
