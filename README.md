@@ -25,6 +25,7 @@
 <img src="https://github.com/zahraw-rz/zahra/blob/main/%D8%B4%D8%B4%D9%85.PNG?raw=true" />
 
 این تابع removeostad, شناسه استاد را به عنوان ورودی میگیرد و پایگاه داده رکورد مربوط به استاد مورد نظر را حذف میکند
+<img src="https://github.com/zahraw-rz/zahra/blob/main/%D9%87%D9%81%D8%AA%D9%85.PNG?raw=true" />
 
 
 
