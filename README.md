@@ -35,7 +35,7 @@
 <img src="https://github.com/zahraw-rz/zahra/blob/main/%D9%86%D9%87%D9%85.PNG?raw=true" />
 
 این تابع removecource شناسه درس را به عنوان ورودی میگیرد و پایگاه داده رکورد مربوط به درس مورد نظر را حذف میکند.
-
+<img src="https://github.com/zahraw-rz/zahra/blob/main/%D8%AF%D9%87%D9%85.PNG?raw=true" />
 
 
 
