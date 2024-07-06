@@ -9,5 +9,8 @@
 
  <img src="https://github.com/zahraw-rz/zahra/blob/main/%D8%AF%D9%88%D9%85.PNG?raw=true" /> 
   
+این تابع removeestudent, شناسه دانشجو را به عنوان ورودی میگیرد و پایگاه داده, رکورد مربوط به دانشجوی مورد نظر را حذف میکند.
+
+
 
 
