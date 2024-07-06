@@ -18,7 +18,6 @@ class Student(BaseModel):
     father: str
     birth: str
     ids : str
-    # ids = seeryal namber
     borncity:str
     address: str
     postalcode: str
@@ -78,9 +77,9 @@ def validate_student(student):
     if re.fullmatch(pattern=pattern_birth,string=student.birth)== None:
         error["birth"] = "تاریخ تولد به درستی وارد نشده است"
     if re.fullmatch(pattern=pattern_ids,string=student.ids)== None:
-        error["ids"] = "سریال شناستانه به درستی وارد نشده است"
+        error["ids"] = "سریال شناسنامه به درستی وارد نشده است"
     if len(student.address) > 100 :
-        error["address"] = "حداکثر مقدار مجاز برای ادرس 100 کراکتر است"
+        error["address"] = "حداکثر مقدار مجاز برای آدرس 100 کراکتر است"
     if len(student.postalcode) != 10 or student.postalcode.isdigit()==False :
         error["postalcode"] = "کد پستی عددی ده رقمی است لطفا در وارد کردن آن دقت نمایید"
     if re.fullmatch(pattern=pattern_cphone,string=student.cphone)== None:
@@ -170,7 +169,7 @@ def validate_ostad(ostad):
     if re.fullmatch(pattern=pattern_birth,string=ostad.birth)== None:
         error["birth"] = "تاریخ تولد به درستی وارد نشده است"
     if len(ostad.address) > 100 :
-        error["address"] = "حداکثر مقدار مجاز برای ادرس 100 کراکتر است"
+        error["address"] = "حداکثر مقدار مجاز برای آدرس 100 کراکتر است"
     if len(ostad.postalcode) != 10 or ostad.postalcode.isdigit()==False :
         error["postalcode"] = "کد پستی عددی ده رقمی است لطفا در وارد کردن آن دقت نمایید"
     if re.fullmatch(pattern=pattern_cphone,string=ostad.cphone)== None:

@@ -60,7 +60,7 @@ def update_student(db: Session, student_id: str, student: models.Student):
 def get_ostad(db: Session, ostad_id: int):
     return db.query(models.ostad).filter(models.ostad.lid == ostad_id).first()
 
-def create_professoe(db: Session, ostad: schemas.ostad):
+def create_ostad(db: Session, ostad: schemas.ostad):
     db_ostad = models.ostad(
         lid=ostad.lid ,
         fname=ostad.fname,

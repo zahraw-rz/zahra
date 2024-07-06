@@ -1,7 +1,5 @@
 from fastapi import Depends, FastAPI, HTTPException
 from sqlalchemy.orm import Session
-
-#se khat paeen baray rafe moshkele unknown parent packaje mibashad
 import sys
 from pathlib import Path
 sys.path[0] = str(Path(sys.path[0]).parent)
@@ -38,7 +36,7 @@ def create_student(student: schemas.Student, db: Session = Depends(get_db)):
     for code in scourseids:
         db_rel_course_student = crud.get_course(db, Course_id=code)
         if db_rel_course_student is None:
-            error_akhs_dars["lcourseids"] = "کد درس انتخاب شده جزو دروس اريه شده نمی باشد"
+            error_akhs_dars["lcourseids"] = "کد درس انتخاب شده جزو دروس ارائه شده نمی باشد"
     lids = student.lids.split(",")
     for code in lids:
         db_rel_PS = crud.get_ostad(db, ostad_id=code)
@@ -67,7 +65,7 @@ def update_student(student_id: str, student: schemas.Student, db: Session = Depe
     for code in scourseids:
         db_rel_course_student = crud.get_course(db, Course_id=code)
         if db_rel_course_student is None:
-            error_akhs_dars["lcourseids"] = "کد درس انتخاب شده جزو دروس اريه شده نمی باشد"
+            error_akhs_dars["lcourseids"] = "کد درس انتخاب شده جزو دروس ارائه شده نمی باشد"
     lids = student.lids.split(",")
     for code in lids:
         db_rel_PS = crud.get_ostad(db, ostad_id=code)
@@ -105,7 +103,7 @@ def create_ostad(ostad: schemas.ostad, db: Session = Depends(get_db)):
     for code in lcourseids:
         db_rel_course_ostad = crud.get_course(db, Course_id=code)
         if db_rel_course_ostad is None:
-            error_akhs_dars["lcourseids"] = "کد درس انتخاب شده جزو دروس اريه شده نمی باشد"
+            error_akhs_dars["lcourseids"] = "کد درس انتخاب شده جزو دروس ارائه شده نمی باشد"
     if error_akhs_dars:
         raise HTTPException(detail=error_akhs_dars , status_code=400)
     return crud.create_professoe(db=db, ostad=ostad)
@@ -131,7 +129,7 @@ def update_ostad(ostad_id: str, ostad: schemas.ostad, db: Session = Depends(get_
     for code in lcourseids:
         db_rel_course_ostad = crud.get_course(db, Course_id=code)
         if db_rel_course_ostad is None:
-            error_akhs_dars["lcourseids"] = "کد درس انتخاب شده جزو دروس اريه شده نمی باشد"
+            error_akhs_dars["lcourseids"] = "کد درس انتخاب شده جزو دروس ارائه شده نمی باشد"
     if error_akhs_dars:
         raise HTTPException(detail=error_akhs_dars , status_code=400)
     return db_ostad
