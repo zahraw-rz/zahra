@@ -121,7 +121,7 @@
 
 یک کلاس به اسم course میسازیم و جدول course را در آن ایجاد میکنیم که این جدول شامل ستون های مختلفی برای نمایش اطلاعات درس در پایگاه داده تعریف میکند.
 
-<img src="
+<img src="https://github.com/zahraw-rz/zahra/blob/main/%D8%B3%DB%8C%20%D8%A7%D9%85.PNG?raw=true" />
 
 
 
