@@ -14,6 +14,8 @@
 این تابع removeestudent, شناسه دانشجو را به عنوان ورودی میگیرد و پایگاه داده, رکورد مربوط به دانشجوی مورد نظر را حذف میکند.
 <img src="https://github.com/zahraw-rz/zahra/blob/main/%D8%B3%D9%88%D9%85.PNG?raw=true" />
 
+این تابع update_student شناسه دانشجو را به عنوان ورودی میگیرد و پایگاه داده, رکورد مربوط به دانشجوی مورد نظر را بروزرسانی میکند.
+<img src="https://github.com/zahraw-rz/zahra/blob/main/%DA%86%D9%87%D8%A7%D8%B1%D9%85.PNG?raw=true" />
 
 
 
