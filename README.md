@@ -129,11 +129,11 @@
 <img src="https://github.com/zahraw-rz/zahra/blob/main/%D8%B3%DB%8C%20%D9%88%20%DB%8C%DA%A9.PNG?raw=true" />
 
 کلاس student با استفاده از BaseModel ایجاد شده است که داده های مختلفی را شامل میشود.
+<img src="https://github.com/zahraw-rz/zahra/blob/main/%D8%B3%DB%8C%20%D9%88%20%D8%AF%D9%88.PNG?raw=true" />
+
+ این کد تابعی به نام validate_student را تعریف میکند که برای اعتبارسنجی اطلاعات دانشجویان ستفاده میشود و در این تابع از چندین الگوی عبارات منظم برای بررسی صحت فرمت داده ها استفاده میشود تا مطمئن شود که داده ها به صورت صحیح و در قالب مربوطه وارد شوند.
+
 <img src="
-
-
-
-
 
 
 
