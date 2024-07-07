@@ -123,6 +123,24 @@
 
 <img src="https://github.com/zahraw-rz/zahra/blob/main/%D8%B3%DB%8C%20%D8%A7%D9%85.PNG?raw=true" />
 
+# فایل schemas:
+اول کتابخانه ها را وارد میکنیم.Union برای تعریف دادههای پیچیدس، HTTPException  برای مدیریت خطاها ، Session  برای مدیریت جلسات پایگاه داده.pydantic برای ایجاد مدل های داده، re برای استفاده از عبارات منظم و.... و کلاس student با استفاده از BaseModel  ایجاد شده است که داده های مختلفی در ان وجود دارد.
+
+<img src="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
