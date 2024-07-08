@@ -45,7 +45,7 @@ class ostad(Base):
     cphone = Column(String)
     hphone = Column(String)
     lcourseids  = Column(String)
-
+#test
 
 #course
 
