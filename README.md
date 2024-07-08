@@ -123,7 +123,50 @@
 
 <img src="https://github.com/zahraw-rz/zahra/blob/main/%D8%B3%DB%8C%20%D8%A7%D9%85.PNG?raw=true" />
 
+# فایل schemas:
+اول کتابخانه ها را وارد میکنیم.Union برای تعریف دادههای پیچیدس، HTTPException  برای مدیریت خطاها ، Session  برای مدیریت جلسات پایگاه داده.pydantic برای ایجاد مدل های داده، re برای استفاده از عبارات منظم و....
 
+<img src="https://github.com/zahraw-rz/zahra/blob/main/%D8%B3%DB%8C%20%D9%88%20%DB%8C%DA%A9.PNG?raw=true" />
+
+کلاس student با استفاده از BaseModel ایجاد شده است که داده های مختلفی را شامل میشود.
+<img src="https://github.com/zahraw-rz/zahra/blob/main/%D8%B3%DB%8C%20%D9%88%20%D8%AF%D9%88.PNG?raw=true" />
+
+ این کد تابعی به نام validate_student را تعریف میکند که برای اعتبارسنجی اطلاعات دانشجویان ستفاده میشود و در این تابع از چندین الگوی عبارات منظم برای بررسی صحت فرمت داده ها استفاده میشود تا مطمئن شود که داده ها به صورت صحیح و در قالب مربوطه وارد شوند. و تابع chek_id  برای اعتبار سنجی کدملی 10 رقمی استفاده میشود.
+
+<img src="https://github.com/zahraw-rz/zahra/blob/main/%D8%B3%DB%8C%20%D9%88%20%D8%B3%D9%87.PNG?raw=true" />
+
+این قسمت برای اعتبارسنجی داده های دانشجو است که با استفاده از عبارت منظم شرایط مختلف، صحت داده هارا بررسی میکند. مثلا کدپستی باید عددی 10 رقمی باشد یا شهر محل تولد باید یکی از شهرهای مشخص شده باشد و...
+
+<img src="https://github.com/zahraw-rz/zahra/blob/main/%D8%B3%DB%8C%20%D9%88%20%DA%86%D9%87%D8%A7%D8%B1.PNG?raw=true" />
+
+ کلاس ostad با استفاده از BaseModel ایجاد شده است که داده های مختلفی را شامل میشود.
+
+<img src="https://github.com/zahraw-rz/zahra/blob/main/%D8%B3%DB%8C%20%D9%88%20%D9%BE%D9%86%D8%AC.PNG?raw=true" />
+
+
+ این کد تابعی به نام validate_ostad را تعریف میکند که برای اعتبارسنجی اطلاعات استادان استفاده میشود و در این تابع از چندین الگوی عبارات منظم برای بررسی صحت فرمت داده ها استفاده میشود تا مطمئن شود که داده ها به صورت صحیح و در قالب مربوطه وارد شوند. تابع chek_id  برای اعتبار سنجی کدملی 10 رقمی استفاده میشود.
+
+<img src="https://github.com/zahraw-rz/zahra/blob/main/%D8%B3%DB%8C%20%D9%88%20%D8%B4%D8%B4.PNG?raw=true" />
+
+این قسمت برای اعتبارسنجی داده های استاد است که با استفاده از عبارت منظم شرایط مختلف، صحت داده ها را بررسی میکند. مثلا کدپستی باید عددی 10 رقمی باشد یا شهر محل تولد باید یکی از شهرهای مشخص شده باشد یا کدملی باید 10 رقمی باشد و...
+
+<img src="https://github.com/zahraw-rz/zahra/blob/main/%D8%B3%DB%8C%20%D9%88%20%D9%87%D9%81%D8%AA.PNG?raw=true" />
+
+کلاس course با استفاده از BaseModel ایجاد شده است که داده های مختلفی را شامل میشود.این کد تابعی به نام validate_course را تعریف میکند که برای اعتبارسنجی اطلاعات دروس استفاده میشود و در این تابع از چندین الگوی عبارات منظم برای بررسی صحت فرمت داده ها استفاده میشود تا مطمئن شود که داده ها به صورت صحیح و در قالب مربوطه وارد شوند.و قسمت بعدی برای اعتبارسنجی داده های درس است که با استفاده از عبارت منظم شرایط مختلف، صحت داده ها را بررسی میکند.
+
+<img src="https://github.com/zahraw-rz/zahra/blob/main/%D8%B3%DB%8C%20%D9%88%20%D9%87%D8%B4%D8%AA.PNG?raw=true" />
+
+# test student:
+
+<img src="https://github.com/zahraw-rz/zahra/blob/main/%D8%AA%D8%B3%D8%AA%20%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88.PNG?raw=true" />
+
+# test ostad:
+
+<img src="https://github.com/zahraw-rz/zahra/blob/main/%D8%AA%D8%B3%D8%AA%20%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF.PNG?raw=true" />
+
+# test course:
+
+<img src="https://github.com/zahraw-rz/zahra/blob/main/%D8%AA%D8%B3%D8%AA%20%D8%AF%D8%B1%D8%B3.PNG?raw=true" />
 
 
 
